@@ -33,7 +33,7 @@ const CoinPage = () => {
                 {/* Left */}
                 <div>
                     <div>
-                        <div className="flex items-center">
+                        <div className="flex justify-between items-center">
                             {coin.market_data?.current_price ? <p className="text-3xl font-bold">${coin.market_data.current_price.usd.toLocaleString()}</p> : null}
                             <p className="ml-4">7 Day</p>
                         </div>
